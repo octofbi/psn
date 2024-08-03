@@ -1,0 +1,183 @@
+<html lang="ar"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة الحسابات</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            margin: 0;
+            padding: 20px;
+            color: #fff;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            font-size: 2em;
+            animation: colorChange 1s infinite alternate;
+        }
+        @keyframes colorChange {
+            0% { color: #0000ff; }
+            100% { color: #4b0082; }
+        }
+        .search-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .search-container input {
+            padding: 10px;
+            width: 300px;
+            border-radius: 5px;
+            border: none;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .account {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 150px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+        }
+        .account:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .account img {
+            width: 100%;
+            height: 150px;
+            object-fit: contain;
+            background-color: #000;
+            filter: hue-rotate(180deg) saturate(200%);
+        }
+        .account-name {
+            padding: 10px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #333;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>OcTo</h1>
+    </div>
+    <div class="search-container">
+        <input type="text" id="search" placeholder="البحث عن اسم الحساب">
+    </div>
+    <div class="container" id="account-container">
+        <!-- تكرار هذا الجزء لكل حساب -->
+        <div class="account">
+            <img src="%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA_files/PlayStation-Logo.png" alt="PSN Logo">
+            <div class="account-name">Bz6km- 🇯🇵</div>
+        </div>
+        <div class="account">
+            <img src="%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA_files/PlayStation-Logo.png" alt="PSN Logo">
+            <div class="account-name">Kprj 🇷🇺</div>
+        </div>
+        <div class="account">
+            <img src="%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA_files/PlayStation-Logo.png" alt="PSN Logo">
+            <div class="account-name">hhhw 🇨🇦</div>
+        </div>
+        <div class="account">
+            <img src="%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA_files/PlayStation-Logo.png" alt="PSN Logo">
+            <div class="account-name">BQAX 🇧🇷</div>
+        </div>
+        <div class="account">
+            <img src="%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA_files/PlayStation-Logo.png" alt="PSN Logo">
+            <div class="account-name">fh92🇫🇷</div>
+        </div>
+        <div class="account">
+            <img src="%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA_files/PlayStation-Logo.png" alt="PSN Logo">
+            <div class="account-name">LbGh 🇺🇸</div>
+        </div>
+        <div class="account">
+            <img src="%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA_files/PlayStation-Logo.png" alt="PSN Logo">
+            <div class="account-name">ihz🇮🇹</div>
+        </div>
+        <div class="account">
+            <img src="%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA_files/PlayStation-Logo.png" alt="PSN Logo">
+            <div class="account-name">Guqo 🇺🇸</div>
+        </div>
+        <div class="account">
+            <img src="%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA_files/PlayStation-Logo.png" alt="PSN Logo">
+            <div class="account-name">Bi__🇵🇹</div>
+        </div>
+        <div class="account">
+            <img src="%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA_files/PlayStation-Logo.png" alt="PSN Logo">
+            <div class="account-name">WP_j 🇸🇦</div>
+        </div>
+        <div class="account">
+            <img src="%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA_files/PlayStation-Logo.png" alt="PSN Logo">
+            <div class="account-name">xNIG🇨🇦</div>
+        </div>
+        <div class="account">
+            <img src="%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA_files/PlayStation-Logo.png" alt="PSN Logo">
+            <div class="account-name">fffk🇦🇺</div>
+        </div>
+        <div class="account">
+            <img src="%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA_files/PlayStation-Logo.png" alt="PSN Logo">
+            <div class="account-name">OnlyNskr-🇺🇸</div>
+        </div>
+        <div class="account">
+            <img src="%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA_files/PlayStation-Logo.png" alt="PSN Logo">
+            <div class="account-name">xeverLost 🇺🇸</div>
+        </div>
+        <div class="account">
+            <img src="%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA_files/PlayStation-Logo.png" alt="PSN Logo">
+            <div class="account-name">Zr32🇩🇪</div>
+        </div>
+        <div class="account">
+            <img src="%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA_files/PlayStation-Logo.png" alt="PSN Logo">
+            <div class="account-name">Brnk 🇺🇸</div>
+        </div>
+        <div class="account">
+            <img src="%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA_files/PlayStation-Logo.png" alt="PSN Logo">
+            <div class="account-name">KMP 🇺🇸</div>
+        </div>
+        <div class="account">
+            <img src="%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA_files/PlayStation-Logo.png" alt="PSN Logo">
+            <div class="account-name">bin_ 🇭🇰</div>
+        </div>
+        <div class="account">
+            <img src="%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA_files/PlayStation-Logo.png" alt="PSN Logo">
+            <div class="account-name">nco🇫🇷</div>
+        </div>
+        <div class="account">
+            <img src="%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA_files/PlayStation-Logo.png" alt="PSN Logo">
+            <div class="account-name">IDC 🇺🇸</div>
+        </div>
+        <div class="account">
+            <img src="%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA_files/PlayStation-Logo.png" alt="PSN Logo">
+            <div class="account-name">HHHD 🇫🇷</div>
+        </div>
+        <div class="account">
+            <img src="%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA_files/PlayStation-Logo.png" alt="PSN Logo">
+            <div class="account-name">ivvo🇲🇽</div>
+        </div>
+        <div class="account">
+            <img src="%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA_files/PlayStation-Logo.png" alt="PSN Logo">
+            <div class="account-name">PEGG🇨🇦</div>
+        </div>
+        <div class="account">
+            <img src="%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA_files/PlayStation-Logo.png" alt="PSN Logo">
+            <div class="account-name">ODF🇩🇪</div>
+        </div>
+    </div>
+</body></html>
